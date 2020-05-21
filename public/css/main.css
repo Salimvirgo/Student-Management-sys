@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+
+    font-family: 'Lato', sans-serif;
+    background-image: url('../images/body1.jpg');     
+    background-size: cover;
+    overflow: hidden;
+}
+.container{
+    
+}
+.navbar{
+    background-color: #64c4ee;
+    padding: 20px; 
+}
+.navbar .navbar-toggler .navbar-toggler-icon i{
+    /* background-image: url(https://i.stack.imgur.com/mSXoO.png)!important; */
+       color: #FF652F !important;
+}
+.navbar-brand, .navbar-nav>li>a{
+     color: rgb(255, 255, 255) !important;
+}
+.navbar-nav li a {
+    
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.btn-login{
+    background-color: #64c4ee;
+    color: #FF652F;
+    font-size: 18px;
+}
+
+.btn-login:hover{
+    background-color: #FF652F;
+    color: #64c4ee;
+    
+}
+
+.login-header-text{
+    color: #FF652F;
+    font-weight: bold;
+}
+.login-form .form-control{
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.login-form .form-control:focus{
+    outline: none;
+}
+.login-form label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.list-group .list-group-item{
+    background-color: #19181A !important;
+    color: #FF652F !important;
+    /* align-items: flex-start; */
+    margin-bottom: 1px;
+}
+
+.list-group .list-group-item a{
+    padding: 3px;
+    color: #FF652F !important;
+}
+
+.list-group .list-group-item-msg{
+    background-color: #fff !important;
+    color: black !important;
+    margin: 5px;
+}
+.card{
+    position: relative;
+    width: 500px;
+    margin-right: -80px;
+}
+/* #custom-button {
+    padding: 10px;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #custom-button:hover {
+    background-color: #00b28f;
+  }
+  
+  #custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #000;
+  } */

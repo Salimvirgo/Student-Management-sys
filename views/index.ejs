@@ -1,1 +1,108 @@
-middle
+<div class="container">  
+<div class="d-flex flex-row-reverse" id="flex">
+    <div class="p-2">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                      <div class="row">
+                          <div class="col text-center">
+                              <h1 class="login-header-text">SIGN UP</h1>
+                          </div>
+                      </div>
+                      <form class="login-form" method="POST" action="/login">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">First Name</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            aria-describedby="texthelp"
+                            placeholder="First Name"
+                            name="text"
+                          />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Last Name</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              aria-describedby="texthelp"
+                              placeholder="Last Name"
+                              name="text"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">User Type</label>
+                            <div class="input-group mb-3">
+                            
+                                <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User Type</button>
+                                <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Student</a>
+                                <a class="dropdown-item" href="#">Administrative Staff</a>
+                                <a class="dropdown-item" href="#">Academic Staff</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                              </div>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                          </div>
+                        </div>
+                        <div>
+                            <label for="exampleInputEmail1">Certificate</label>
+                            <div class="container">
+                                <div class="row row-cols-4">
+                                  <div class="col">
+                                    <div class="form-check">
+                                        <input type="radio" id="msc" name="certificate" value="msc">
+                                        <label for="msc">MSc</label><br>
+                                    </div> 
+                                  </div>
+                                  <div class="col">
+                                    <div class="form-check">
+                                        <input type="radio" id="bsc" name="certificate" value="bsc">
+                                        <label for="bsc">BSc</label><br>
+                                    </div>
+                                  </div>
+                                  <div class="col"><div class="form-radio">
+                                    <input type="radio" id="hd" name="certificate" value="hd">
+                                        <label for="hd">HD</label><br>
+                                </div>
+                            </div>
+                                  <div class="col">
+                                    <div class="form-check">
+                                        <input type="radio" id="od" name="certificate" value="od">
+                                        <label for="od">OD</label><br>
+                                    </div> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input
+                            type="password"
+                            class="form-control"
+                            placeholder="Password"
+                            name="password"
+                          />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input
+                              type="password"
+                              class="form-control"
+                              placeholder="Password"
+                              name="password"
+                            />
+                          </div>
+                        <button type="submit" class="btn btn-block mt-md-3 btn-login py-md-2">Sign up &nbsp; <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        
+    </div>
+</div>
+</div> 
